@@ -36,21 +36,21 @@ const Dashboard = () => {
         <Col xs={8}>
           <Panel className="trend-box bg-gradient-red">
             <img className="chart-img" src={images.PVIcon} />
-            <div className="title">Page Views </div>
+            <div className="title">Total Customers </div>
             <div className="value">281,358</div>
           </Panel>
         </Col>
         <Col xs={8}>
           <Panel className="trend-box bg-gradient-green">
             <img className="chart-img" src={images.VVICon} />
-            <div className="title">Visits </div>
+            <div className="title">New Customers </div>
             <div className="value">251,901</div>
           </Panel>
         </Col>
         <Col xs={8}>
           <Panel className="trend-box bg-gradient-blue">
             <img className="chart-img" src={images.UVIcon} />
-            <div className="title">Unique Visitors</div>
+            <div className="title">Total Investment</div>
             <div className="value">25,135</div>
           </Panel>
         </Col>
