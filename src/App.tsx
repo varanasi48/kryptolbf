@@ -15,7 +15,7 @@ import Error503Page from './pages/authentication/503';
 import SignInPage from './pages/authentication/sign-in';
 import SignUpPage from './pages/authentication/sign-up';
 import MembersPage from './pages/tables/members';
-import VirtualizedTablePage from './pages/tables/virtualized';
+//import VirtualizedTablePage from './pages/tables/virtualized';
 import FormBasicPage from './pages/forms/basic';
 import FormWizardPage from './pages/forms/wizard';
 import CalendarPage from './pages/calendar';
@@ -30,7 +30,7 @@ const App = () => {
             <Route index element={<Landing />} />
             <Route path="dashboard" element={<DashboardPage />} />
             <Route path="table-members" element={<MembersPage />} />
-            <Route path="table-virtualized" element={<VirtualizedTablePage />} />
+           
             <Route path="error-404" element={<Error404Page />} />
             <Route path="error-403" element={<Error403Page />} />
             <Route path="error-500" element={<Error500Page />} />
