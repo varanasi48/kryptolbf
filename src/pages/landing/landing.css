@@ -1,0 +1,115 @@
+.cover {
+    height: 960px;
+    width: 1600px;
+    background-color: #f7f7fa;
+  }
+  .rectangle-1-0 {
+    border-radius: 6px;
+    height: 840px;
+    width: 1480px;
+    background-color: #ffffff;
+  }
+  .1-general-/divider {
+    height: 550px;
+    width: 1px;
+  }
+  .rectangle {
+    height: 550px;
+    width: 1px;
+    background-color: #e5e5ea;
+  }
+  .1-general-/button--primary {
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 10px;
+    background-color: #3498ff;
+  }
+  .text-1 {
+    text-align: left;
+    vertical-align: top;
+    font-size: 14px;
+    font-family: Abhaya Libre;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  .o-b-forms-/label {
+    height: 84px;
+    width: 300px;
+    background-color: #ffffff;
+  }
+  .text-2 {
+    text-align: left;
+    vertical-align: top;
+    font-size: 14px;
+    font-family: Inter;
+    line-height: 28%;
+    color: #000000;
+  }
+  .frame {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    border: 1px solid #e2e1e5;
+  }
+  .text-3 {
+    text-align: left;
+    vertical-align: top;
+    font-size: 14px;
+    font-family: Inter;
+    line-height: 28%;
+    color: #d2d2d2;
+  }
+  .o-b-forms-/label {
+    height: 84px;
+    width: 300px;
+    background-color: #ffffff;
+  }
+  .text-4 {
+    text-align: left;
+    vertical-align: top;
+    font-size: 14px;
+    font-family: Inter;
+    line-height: 28%;
+    color: #000000;
+  }
+  .frame {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    border: 1px solid #e2e1e5;
+  }
+  .text-5 {
+    text-align: left;
+    vertical-align: top;
+    font-size: 14px;
+    font-family: Inter;
+    line-height: 28%;
+    color: #d2d2d2;
+  }
+  .img-6 {
+    height: 763px;
+    width: 738px;
+  }
+  .text-7 {
+    text-align: left;
+    vertical-align: top;
+    font-size: 64px;
+    font-family: Abhaya Libre ExtraBold;
+    letter-spacing: 5px;
+    line-height: 20px;
+    color: #000000;
+  }
+  
+  

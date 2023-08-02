@@ -1,10 +1,11 @@
-import React from 'react';
+import * as React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { IntlProvider } from 'react-intl';
 import { CustomProvider } from 'rsuite';
 import enGB from 'rsuite/locales/en_GB';
 import locales from './locales';
 import Frame from './components/Frame';
+import Landing from './pages/landing/landing';
 import DashboardPage from './pages/dashboard';
 import Error404Page from './pages/authentication/404';
 import Error403Page from './pages/authentication/403';
@@ -26,7 +27,7 @@ const App = () => {
       <CustomProvider locale={enGB}>
         <Routes>
           <Route path="/" element={<Frame navs={appNavs} />}>
-            <Route index element={<DashboardPage />} />
+            <Route index element={<Landing />} />
             <Route path="dashboard" element={<DashboardPage />} />
             <Route path="table-members" element={<MembersPage />} />
             <Route path="table-virtualized" element={<VirtualizedTablePage />} />
